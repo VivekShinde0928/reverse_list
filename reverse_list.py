@@ -24,11 +24,12 @@ print('***To reverse a list by three different methods***\n')
 
 # Method3       ##  pending
 # x = list(user_input)
-# Rev3=x
-# print(Rev3)
-Rev3 = [1, 2, 3, 4]
-for i in Rev3:
-    print (Rev3[len(Rev3)-i-1])
+Rev3 = [12, 22, 32, 42]
+lst = []
+length_input = len(Rev3)
+for i in range(length_input-1,-1,-1):
+    lst.append(Rev3[i])
+print(lst)
 
 # print(Rev3[-3])
     # print(Rev3)
