@@ -22,7 +22,7 @@ print('***To reverse a list by three different methods***\n')
 # Rev2=list(user_input[::-1])
 # print(Rev2)
 
-# Method3       ##  pending
+# Method3      
 # x = list(user_input)
 Rev3 = [12, 22, 32, 42]
 lst = []
